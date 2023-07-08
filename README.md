@@ -1,6 +1,6 @@
 # Alpaca-Turbo
 
-![Licence](https://img.shields.io/github/license/ViperX7/Alpaca-Turbo) 
+![Licence](https://img.shields.io/github/license/ViperX7/Alpaca-Turbo)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/ViperX7/Alpaca-Turbo)](https://github.com/ViperX7/Alpaca-Turbo/releases) ![Commits/month](https://img.shields.io/github/commit-activity/m/ViperX7/Alpaca-Turbo)
 
@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/38191717/234747316-2e8d5f55-73f2-4f42-
 > #### For Windows users we have a [oneclick standalone launcher - Alpaca-Turbo.exe](https://github.com/ViperX7/Alpaca-Turbo/releases/latest).
 
 1. Links for installing miniconda:
-    - [Windows](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) 
+    - [Windows](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
     - [Mac M1/M2](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)
       > - Install for all users
       > - Make sure to add `c:\ProgramData\miniconda3\condabin` to your environment variables
@@ -48,7 +48,7 @@ https://user-images.githubusercontent.com/38191717/234747316-2e8d5f55-73f2-4f42-
 6. close that window
 7. open a new cmd window in your Alpaca-Turbo dir and type
    ```
-   conda create -n alpaca_turbo python=3.10 -y
+   \
    conda activate alpaca_turbo
    pip install -r requirements.txt
    python app.py
@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/38191717/234747316-2e8d5f55-73f2-4f42-
 9. ready to interact
 
 #### Directly installing with Pip
-just get the latest release unzip and then run 
+just get the latest release unzip and then run
 
 ```
 pip install -r requirements.txt
